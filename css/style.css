@@ -879,6 +879,7 @@ p {
 
 .therapist-section {
   position: relative;
+  padding: 1.5rem 0;
 }
 
 #therapist-profile-content {
@@ -2828,10 +2829,6 @@ footer {
     justify-content: center;
     transition: background 0.3s ease;
     z-index: 10;
-  }
-
-  .carousel-btn:hover {
-    background: rgba(122, 139, 110, 1);
   }
 
   .carousel-prev {

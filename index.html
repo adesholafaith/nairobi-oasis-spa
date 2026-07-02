@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nairobi Oasis – Premium mobile massage and wellness therapy delivered to your home, hotel, or office in Nairobi. Book expert therapists via WhatsApp." />
+  <meta name="keywords" content="massage Nairobi, mobile massage Nairobi, wellness therapy Nairobi, home massage Nairobi, deep tissue massage, Swedish massage, couples massage" />
+  <meta property="og:title" content="Nairobi Oasis | Luxury Mobile Wellness" />
+  <meta property="og:description" content="Premium mobile massage and wellness therapy in Nairobi. Expert therapists at your doorstep." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Nairobi Oasis | Premium Mobile Spa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="img/main-logo.png">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="mainNav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="Nairobi Oasis Home">
+      <span class="logo-name">Nairobi Oasis</span>
+      <span class="logo-tagline">Mobile Spa · Nairobi</span>
+    </a>
+    <div class="nav-links" role="menubar">
+      <a href="index.html" class="active" role="menuitem">Home</a>
+      <div class="nav-dropdown" role="none">
+        <a href="therapists.html" role="menuitem">Therapists</a>
+        <div class="dropdown-menu">
+          <a href="therapists.html#female-therapists">Female Therapists</a>
+          <a href="therapists.html#male-therapists">Male Therapists</a>
+          <a href="therapists.html">All Therapists</a>
+        </div>
+      </div>
+      <a href="services.html" role="menuitem">Services</a>
+      <a href="about.html" role="menuitem">About</a>
+      <a href="contact.html" role="menuitem">Contact</a>
+      <a href="booking.html" class="nav-book-btn" role="menuitem">Book Now</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" role="menu">
+    <a href="index.html" role="menuitem">Home</a>
+    <a href="therapists.html" role="menuitem">Our Therapists</a>
+    <a href="services.html" role="menuitem">Services</a>
+    <a href="about.html" role="menuitem">About Us</a>
+    <a href="#benefits" role="menuitem">Benefits</a>
+    <a href="#faq" role="menuitem">FAQs</a>
+    <a href="contact.html" role="menuitem">Contact</a>
+    <a href="booking.html" role="menuitem" style="color:var(--sage-dark);font-weight:500;">→ Book Now</a>
+  </div>
+</nav>
+
+<!-- FLOATING BOOKING BUTTONS -->
+<div class="float-book" aria-label="Quick booking buttons">
+  <a href="https://wa.me/254143001962?text=Hi Nairobi Oasis! I'd like to book a massage." target="_blank" class="float-btn wa" rel="noopener">
+    <div class="dot"></div>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+</div>
+
+<!-- HERO -->
+<section class="hero" aria-label="Hero section">
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="hero-content">
+      <p class="eyebrow">NAIROBI'S PREMIER MOBILE SPA</p>
+      <h1>Your private <em>escape</em> delivered to your door</h1>
+      <p>Experience world-class massage and wellness in the comfort of your home, hotel, villa, or Airbnb — wherever you're staying across Nairobi. Professional, discreet, and deeply restorative.</p>
+      <div class="btn-group">
+        <a href="services.html" class="btn btn-outline">EXPLORE OUR TREATMENTS</a>
+        <a href="booking.html" class="btn btn-outline">RESERVE YOUR SESSION</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual" aria-hidden="true">
+    <div class="hero-img-wrap"></div>
+    <div>
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="vid/IMG_4090.MP4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!--WHY NAIROBI OASIS-->
+<section class="why-choose section">
+  <div class="container">
+    <p class="eyebrow">Why Nairobi Oasis</p>
+    <h2>
+      The Choice of Nairobi's <br>most Discerning Clients
+    </h2>
+    <ul class="why-list">
+      <li><span>✦</span> Tailored to Every Client</li>
+      <li><span>✦</span> Thoroughly Vetted Therapists</li>
+      <li><span>✦</span> 100% Private &amp; Discreet</li>
+      <li><span>✦</span> Experienced Professionals</li>
+      <li><span>✦</span> We Come Fully Equipped</li>
+      <li><span>✦</span> Available 7 Days a Week</li>
+    </ul>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="intro section" aria-labelledby="intro-heading">
+  <div class="container">
+    <div class="intro-visual reveal">
+      <div class="intro-visual-img">
+        <img src="img/image-1.png" alt="Nairobi Oasis mobile massage experience" class="intro-img intro-img-mob" />
+      </div>
+    </div>
+    <div class="intro-text reveal reveal-delay-2">
+      <p class="eyebrow">The Nairobi Oasis Experience</p>
+      <h2 id="intro-heading">Luxury wellness,<br>wherever you are</h2>
+      <p>Nairobi Oasis brings world-class wellness to your doorstep — whether you're staying at a five-star hotel, a private villa, or an Airbnb. No commute. No waiting room. Just pure, unhurried luxury.</p>
+      <p>Our certified therapists come to you fully equipped, completely professional, and deeply committed to your comfort and privacy.</p>
+      <div class="intro-features">
+        <div class="feature-tag">Internationally Trained Therapists</div>
+        <div class="feature-tag">Trusted & Reliable</div>
+        <div class="feature-tag">Complete Privacy & Discretion</div>
+        <div class="feature-tag">Hotel, Villa & Airbnb Ready</div>
+        <div class="feature-tag">Your Comfort, Our Priority</div>
+        <div class="feature-tag">Holistic Wellness Approach</div>
+      </div>
+      <a href="about.html" class="btn btn-outline">Our Story →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services section" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">What We Offer</p>
+      <h2 id="services-heading">The Nairobi Oasis<br>Signature Collection</h2>
+      <p>From deep relaxation to targeted relief, every treatment is personally tailored and delivered to your home, hotel, villa, or Airbnb.</p>
+    </div>
+    <div class="services-slider">
+      <button class="slider-btn slider-btn-prev" aria-label="Previous service">‹</button>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <img src="img/image-4-mini.png" alt="" class="service-card-img">
+          <h2 class="service-icon">The Oasis Escape</h2>
+          <h3>Swedish Massage</h3>
+          <p>The ultimate in relaxation. Long flowing strokes melt away tension and leave you feeling deeply restored.</p>
+          <div class="service-price">From KSh 7,000 ($60) <br> 60 ─ 90 mins</div>
+          <a href="services.html">Explore →</a>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <img src="img/image-2-mini.png" alt="" class="service-card-img">
+          <h2 class="service-icon">The Serenity Experience</h2>
+          <h3>Aromatherapy Massage</h3>
+          <p>A luxurious massage enhanced with aromatic essential oils to promote deep relaxation and emotional wellbeing.</p>
+          <div class="service-price">From  KSh 7,000 ($60) <br> 60 ─ 90 mins</div>
+          <a href="services.html">Explore →</a>
+        </div>
+        <div class="service-card reveal">
+          <img src="img/couples-1-mini.png" alt="" class="service-card-img">
+          <h2 class="service-icon">The Couples Sanctuary</h2>
+          <h3>Couples Massage</h3>
+          <p>A side-by-side wellness experience designed for couples seeking relaxation and connection.</p>
+          <div class="service-price">From  KSh 7,000 ($60) <br> 60 ─ 90 mins</div>
+          <a href="services.html">Explore →</a>
+        </div>
+      </div>
+
+      <button class="slider-btn slider-btn-next" aria-label="Next service">›</button>
+    </div>
+
+    <div class="slider-dots" aria-hidden="true"></div>
+    <div style="text-align:center;margin-top:3rem;" class="reveal">
+      <a href="services.html" class="btn btn-outline">Explore All Treatments</a>
+    </div>
+  </div>
+</section>
+
+<!-- THERAPISTS PREVIEW -->
+<section class="therapists section" aria-labelledby="therapists-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">Our Wellness Experts</p>
+      <h2 id="therapists-heading">Meet Nairobi's Finest <br> Wellness Therapists</h2>
+      <p>Carefully vetted, professionally certified, and committed to delivering exceptional wellness experiences in the comfort of your home, hotel, villa or Airbnb.</p>
+    </div>
+    <div class="therapist-tabs">
+      <button class="tab-btn active" data-tab="female-tab">Female Therapists</button>
+      <button class="tab-btn" data-tab="male-tab">Male Therapists</button>
+    </div>
+    <div id="female-tab" class="tab-content active">
+      <div class="carousel-wrapper">
+        <div class="therapist-grid" data-carousel="female">
+          <a href="therapist-profile.html?id=daisy" class="therapist-card reveal">
+            <div class="therapist-img-placeholder">
+              <img src="img/Daisy.jpg" alt="Daisy" class="therapist-img">
+            </div>
+            <div class="therapist-info">
+              <h4>Daisy</h4>
+              <div class="specialty">★ Highly Rated Therapist</div>
+              <button class="btn-outline btn">Discover Daisy</button>
+            </div>
+          </a>
+          <a href="therapist-profile.html?id=maya" class="therapist-card reveal reveal-delay-1">
+            <div class="therapist-img-placeholder">
+              <img src="img/Maya-4.jpeg" alt="Maya" class="therapist-img">
+            </div>
+            <div class="therapist-info">
+              <h4>Maya</h4>
+              <div class="specialty">★ Highly Rated Therapist</div>
+              <button class="btn-outline btn">Discover Maya</button>
+            </div>
+          </a>
+          <a href="therapist-profile.html?id=nora" class="therapist-card reveal reveal-delay-2">
+            <div class="therapist-img-placeholder">
+              <img src="img/Nora-2.png" alt="Nora" class="therapist-img">
+            </div>
+            <div class="therapist-info">
+              <h4>Nora</h4>
+              <div class="specialty">★ Highly Rated Therapist</div>
+              <button class="btn-outline btn">Discover Nora</button>
+            </div>
+          </a>
+          <a href="therapist-profile.html?id=sally" class="therapist-card reveal reveal-delay-3">
+            <div class="therapist-img-placeholder">
+              <img src="img/Sally3.png" alt="Sally" class="therapist-img">
+            </div>
+            <div class="therapist-info">
+              <h4>Sally</h4>
+              <div class="specialty">★ Highly Rated Therapist</div>
+              <button class="btn-outline btn">Discover Sally</button>
+            </div>
+          </a>
+        </div>
+        <button class="carousel-btn carousel-prev" data-carousel="female">‹</button>
+        <button class="carousel-btn carousel-next" data-carousel="female">›</button>
+      </div>
+      <div class="carousel-dots" data-carousel="female"></div>
+    </div>
+    <div id="male-tab" class="tab-content">
+      <div class="carousel-wrapper">
+        <div class="therapist-grid" data-carousel="male">
+          <a href="therapist-profile.html?id=dan" class="therapist-card reveal">
+            <div class="therapist-img-placeholder">
+              <img src="img/Dan-2.png" alt="Dan" class="therapist-img">
+            </div>
+            <div class="therapist-info">
+              <h4>Dan</h4>
+              <div class="specialty">★ Highly Rated Therapist</div>
+              <button class="btn-outline btn">Discover Dan</button>
+            </div>
+          </a>
+          <a href="therapist-profile.html?id=alison" class="therapist-card reveal reveal-delay-1">
+            <div class="therapist-img-placeholder">
+              <img src="img/Alison-2.png" alt="Alison" class="therapist-img">
+            </div>
+            <div class="therapist-info">
+              <h4>Alison</h4>
+              <div class="specialty">★ Highly Rated Therapist</div>
+              <button class="btn-outline btn">Discover Alison</button>
+            </div>
+          </a>
+        </div>
+        <button class="carousel-btn carousel-prev" data-carousel="male">‹</button>
+        <button class="carousel-btn carousel-next" data-carousel="male">›</button>
+      </div>
+      <div class="carousel-dots" data-carousel="male"></div>
+    </div>
+    <div style="text-align:center;margin-top:3rem;" class="reveal">
+      <a href="therapists.html" class="btn btn-outline">See All Therapists</a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-it-works section" aria-labelledby="hiw-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">The Process</p>
+      <h2 id="hiw-heading">Effortless from start<br>to finish</h2>
+      <p>Booking your private session is simple, fast and completely stress-free.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step reveal">
+        <div class="step-icon">
+          <img src="icons/message-w.png" alt="Message icon">
+        </div>
+        <h3>Choose Your Treatment</h3>
+        <p>Browse our treatments, select your preferred therapist, and reach out to us on WhatsApp.</p>
+      </div>
+      <div class="step reveal reveal-delay-1">
+        <div class="step-icon">
+          <img src="icons/booking.png" alt="Calendar icon">
+        </div>
+        <h3>Confirm Your Booking</h3>
+        <p>We'll confirm your therapist's availability, time, and location within minutes. No lengthy forms or waiting.</p>
+      </div>
+      <div class="step reveal reveal-delay-2">
+        <div class="step-icon">
+          <img src="icons/house.png" alt="Home icon">
+        </div>
+        <h3>We Come to You</h3>
+        <p>Your therapist arrives at your home, hotel, villa, or Airbnb — fully equipped and ready to begin.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials section" aria-labelledby="reviews-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">Client Experiences</p>
+      <h2 id="reviews-heading">What our clients say</h2>
+    </div>
+
+    <div class="testimonials-viewport" id="testimonialsViewport">
+      <div class="testimonials-track" id="testimonialsTrack">
+
+        <div class="testimonial-card reveal">
+          <div class="stars"><span class="rating">5.0</span>★★★★★</div>
+          <p>An absolutely incredible experience. Therapist arrived promptly, was completely professional, and I had a wonderful session. My chronic back pain was genuinely relieved.</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">A</div>
+            <div>
+              <div class="reviewer-name">Jane W.</div>
+              <div class="reviewer-loc">Westlands, Nairobi</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="stars"><span class="rating">4.9</span>★★★★★</div>
+          <p>Absolutely outstanding service. The therapist arrived on time, was highly professional and immediately put me at ease. I felt a significant reduction in my shoulder tension after just one session.</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">K</div>
+            <div>
+              <div class="reviewer-name">Kwame A.</div>
+              <div class="reviewer-loc">Kilimani, Nairobi</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="stars"><span class="rating">5.0</span>★★★★★</div>
+          <p>My husband and I used the couples package for our anniversary. The therapists made it feel like a five-star spa in our own living room. Worth every dollar!</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">A</div>
+            <div>
+              <div class="reviewer-name">Amina & Jomo O.</div>
+              <div class="reviewer-loc">Kileleshwa, Nairobi</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars"><span class="rating">4.8</span>★★★★★</div>
+          <p>Booking was effortless and the deep tissue massage was exactly what my travel-worn back needed. I'll definitely be a repeat client.</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">T</div>
+            <div>
+              <div class="reviewer-name">Tendai M.</div>
+              <div class="reviewer-loc">Lavington, Nairobi</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars"><span class="rating">5.0</span>★★★★★</div>
+          <p>I was skeptical about home sessions but the therapist's setup felt more relaxing than any spa visit I've had. Highly recommend.</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">N</div>
+            <div>
+              <div class="reviewer-name">Nia K.</div>
+              <div class="reviewer-loc">Karen, Nairobi</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars"><span class="rating">4.9</span>★★★★★</div>
+          <p>Six sessions in and my migraines have noticeably reduced. The therapist truly understands trigger points and pressure.</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">D</div>
+            <div>
+              <div class="reviewer-name">David O.</div>
+              <div class="reviewer-loc">Runda, Nairobi</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="testimonial-dots" id="testimonialDots"></div>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section class="benefits section" id="benefits">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Why Choose Mobile Wellness</p>
+      <h2>The advantages of bringing <br> the spa to you</h2>
+    </div>
+
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <P style="color: var(--earth); font-size: 25px;">✦</P>
+        <h3>No Travel, No Hassle</h3>
+        <p>Skip the traffic and crowded waiting rooms. Your treatment begins the moment your therapist arrives.</p>
+      </div>
+
+      <div class="benefit-card">
+        <P style="color: var(--earth); font-size: 25px;">✦</P>
+        <h3>Complete Privacy</h3>
+        <p>Relax fully in your own space, away from public spas and unfamiliar environments.</p>
+      </div>
+
+      <div class="benefit-card">
+        <P style="color: var(--earth); font-size: 25px;">✦</P>
+        <h3>Personalized to You</h3>
+        <p>Every session is tailored to your preferences, pressure and pace — not a one-size-fits-all experience.</p>
+      </div>
+
+      <div class="benefit-card">
+        <P style="color: var(--earth); font-size: 25px;">✦</P>
+        <h3>Your Schedule, Your Space</h3>
+        <p>Whether it's early morning before meetings or late evening after a long day, we work around you.</p>
+      </div>
+
+      <div class="benefit-card">
+        <P style="color: var(--earth); font-size: 25px;">✦</P>
+        <h3> Hygienic & Fully Equipped</h3>
+        <p>Our therapists bring professional-grade equipment and premium products — clean, safe and ready every time.</p>
+      </div>
+
+      <div class="benefit-card">
+        <P style="color: var(--earth); font-size: 25px;">✦</P>
+        <h3>True Relaxation</h3>
+        <p>No driving home afterward. Simply finish your session and drift into rest, right where you are.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq section" id="faq">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">Common Questions</p>
+      <h2>FAQ</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h4>How far in advance do I need to book?</h4>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-a"><p>We recommend booking at least 1–2 hours in advance to ensure therapist availability. For the best selection of therapists and appointment times, booking earlier is always advised.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h4>What areas do you cover?</h4>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-a"><p>We cover all Nairobi neighborhoods including Westlands, Karen, Kilimani, Kileleshwa, Lavington, Parklands, Runda, Muthaiga, Upperhill, CBD, and surrounding areas. Message us if you're unsure.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h4>Is it safe to invite a therapist to my home?</h4>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-a"><p>Absolutely. All Nairobi Oasis therapists are professionally trained, identity-verified, background-checked, and committed to maintaining the highest standards of professionalism, privacy, and client care.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h4>When do I pay?</h4>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-a"><p>Payment is made upon completion of your session. We currently accept M-Pesa and cash payments. Our team will provide payment guidance when confirming your booking.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h4>What do I need to prepare for the therapist?</h4>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-a"><p>Simply clear enough space for a massage table (or the floor for Thai massage), have a towel or two available, and let us know in advance if there are any special requirements. Our therapists bring all professional equipment.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h4>Can I request a specific therapist?</h4>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-a"><p>Yes! Browse our therapist profiles and mention your preference when booking. We'll do our best to match you with your requested therapist subject to availability.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING CTA -->
+<section class="booking-cta" aria-label="Call to action">
+  <div class="container">
+    <p class="eyebrow">Ready to Begin</p>
+    <h2>Reserve Your Session Today</h2>
+    <p>Your perfect session is just one message away. Choose how you'd like to connect with us.</p>
+    <div class="btn-group" style="justify-content:center;margin-bottom:3rem;">
+      <a href="booking.html" class="btn btn-outline">Reserve Online →</a>
+    </div>
+    <div class="booking-methods">
+      <a href="https://wa.me/254143001962" target="_blank" class="booking-method-card">
+        <div class="method-icon">
+          <img src="icons/whatsapp.png" alt="whatsapp-icon">
+        </div>
+        <div class="method-name">WhatsApp</div>
+      </a>
+      <a href="tel:+254143001962" class="booking-method-card">
+        <div class="method-icon">
+          <img src="icons/call.png" alt="phone-icon">
+        </div>
+        <div class="method-name">Call Us</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-name">Nairobi Oasis</span>
+          <span class="logo-tagline">Mobile Spa · Nairobi</span>
+        </div>
+        <p style="margin-top:1.25rem;">Nairobi's premium mobile wellness service, bringing certified massage therapists to your home, hotel or offices. Professional, private and deeply restorative services.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/nairobioasisspa" class="social-link" target="_blank" aria-label="Instagram">
+            <img src="icons/instagram.png" alt="Instagram icon">
+          </a>
+          <a href="https://www.tiktok.com/@nairobioasismobilespa" target="_blank" class="social-link" aria-label="Tiktok">
+            <img src="icons/tiktok.png" alt="Tiktok icon">
+          </a>
+          <a href="https://www.facebook.com/share/14eLEYNdpJy/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="WhatsApp">
+            <img src="icons/facebook.png" alt="Faceook icon">
+          </a>
+        </div>
+      </div>
+      <div class="footer-col f-services">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html#swedish">Swedish Massage</a></li>
+          <li><a href="services.html#tissue">Deep Tissue</a></li>
+          <li><a href="services.html#couple">Couples Massage</a></li>
+          <li><a href="services.html#aromatherapy">Aromatherapy</a></li>
+          <li><a href="services.html#flymetoyou">Fly Me To You Experience</a></li>
+          <li><a href="services.html.">View All Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col f-company">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="therapists.html">Our Therapists</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">Reserve Now</a></li>
+          <li><a href="">Join Our Team</a> <span><img src="icons/profile.png" alt=""></span> </li>
+        </ul>
+      </div>
+      <div class="footer-col f-contact">
+        <h5>Contact</h5>
+        <div class="footer-contact-item">
+          <img src="icons/call.png" class="icon-img" alt="">
+          <a href="tel:+254143001962">+254 143 001 962</a>
+        </div>
+        <div class="footer-contact-item">
+          <img src="icons/mail-w.png" class="icon-img" alt="">
+          <a href="mailto:hello@nairobioasismobilespa@gmail.com">nairobioasismobilespa@gmail.com</a>
+        </div>
+        <div class="footer-contact-item">
+            <img src="icons/time.png" class="icon-img" alt="">
+          <span>Mon – Sun, 7am – 11:30pm</span>
+        </div>
+        <div style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.5rem;">
+          <a href="https://wa.me/254143001962" target="_blank" class="btn btn-wa" style="font-size:0.72rem;padding:0.6rem 1rem;justify-content:center;">
+            <img src="icons/whatsapp.png" alt="WhatsApp icon">  WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nairobi Oasis Mobile Spa. All rights reserved.</span>
+      <!-- <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div> -->
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

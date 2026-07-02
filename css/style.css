@@ -727,15 +727,15 @@ p {
 }
 
 .slider-btn {
-  display: none; /* hidden on desktop */
+  display: none; 
   flex-shrink: 0;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: var(--warm-white);
+  background: var(--earth);
   border: 1px solid var(--border);
   font-size: 1.4rem;
-  color: var(--sage-dark);
+  color: var(--warm-white);
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -1360,9 +1360,12 @@ footer {
   margin-bottom: 1.25rem;
 }
 
+.team-list {
+  display: flex;
+}
+
 .footer-col ul li {
   margin-bottom: 0.6rem;
-  display: inline-flex;
   gap: 5px;
 }
 
@@ -2667,7 +2670,7 @@ footer {
   }
   
   .service-card {
-    padding: 1.2rem 0rem;
+    padding: 1.2rem 0.5rem;
   }
 
   .service-card:nth-child(3) {

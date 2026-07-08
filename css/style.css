@@ -552,7 +552,7 @@ p {
 }
 
 .why-list li{
-    font-size:1.05rem;
+    font-size:1.5rem;
     color:var(--text);
     letter-spacing:.03em;
 }
@@ -606,14 +606,14 @@ p {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--charcoal-light);
 }
 
 .feature-tag::before {
   content: "✦";
   color: var(--earth);
-  font-size: 0.65rem;
+  font-size: 1rem;
 }
 
 /* SERVICES SECTION */

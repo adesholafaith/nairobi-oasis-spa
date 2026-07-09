@@ -552,7 +552,7 @@ p {
 }
 
 .why-list li{
-    font-size:1.5rem;
+    font-size:1.2rem;
     color:var(--text);
     letter-spacing:.03em;
 }
@@ -2448,6 +2448,9 @@ footer {
     width: 3%;
   }
 
+  .why-list li{
+    font-size:1rem;
+  }
   
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
